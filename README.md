@@ -1,1 +1,1 @@
-my method of trasferting files between my many devices
+my method of transferring files between my many devices
