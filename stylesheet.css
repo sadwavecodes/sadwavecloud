@@ -1,0 +1,118 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Minecraftia;
+  transition: 0.3s;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  animation: nav-bar 2s infinite;
+
+}
+
+li a:hover {
+  background-color: #FFFFFF;
+  color:black;
+}
+
+.recent {
+  font-family: Minecraftia;
+  font-size: 50px;
+  text-align: center;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  10% { color: red; }
+  20% { color: orange; }
+  30% { color: yellow; }
+  40% { color: limegreen; }
+  50% { color: green; }
+  60% { color: lightseagreen; }
+  70% { color: blue; }
+  80% { color: purple; }
+  90% { color: pink; }
+  100% { color: palevioletred; }
+}
+
+@keyframes nav-bar {
+0% {color: lightgray; }
+50% { color: gray; }
+100% {color : lightgray};
+}
+
+button {
+  font-family: Minecraftia;
+  background-color: black;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.mrbeast {
+  position: absolute;
+  margin-left: 1171px;
+  outline: auto;
+}
+
+.randonsfx {
+color: white;
+margin-left: 1171px;
+}
+
+.cloud1 {
+font-family: Minecraftia;
+animation: nav-bar 2s infinite;
+}
+
+.cloud1 img {
+width: 115px;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.cloud2 img {
+  width: 115px;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.cloud2 img:hover {
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+.cloud1 img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+.cloud2 {
+  font-family: Minecraftia;
+  animation: nav-bar 2s infinite;
+  margin-left: 150px;
+  margin-top: -187px;
+}
+
+body {
+  background-image: url('sadwave.ico');
+}
