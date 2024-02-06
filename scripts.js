@@ -6,7 +6,6 @@ function isMobile() {
   if (isMobile()) {
     console.log("Mobile device detected");
     if (window.confirm('For better mobile functionality click Ok. Cancel will load the desktop website ')) 
-{
 window.location.href='https://mobile.sadwave.cloud';
 };
   }else {
