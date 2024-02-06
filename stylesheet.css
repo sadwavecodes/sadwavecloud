@@ -76,6 +76,28 @@ font-family: Minecraftia;
 animation: nav-bar 2s infinite;
 }
 
+.cloud3{
+  font-family: Minecraftia;
+  animation: nav-bar 2s infinite;
+  margin-left: 300px;
+  margin-top: -187px;
+}
+
+.cloud3 img {
+width: 115px;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.cloud3 img:hover{
+filter:grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 0.5s ease;
+}
+
 .cloud1 img {
 width: 115px;
 filter: grayscale(100%);
@@ -95,7 +117,7 @@ filter: grayscale(0%);
 filter: gray;
 -webkit-filter: grayscale(0%);
 filter: none;
-transition: 1s ease;
+transition: 0.5s ease;
 }
 
 .cloud1 img:hover {
@@ -103,7 +125,7 @@ transition: 1s ease;
   filter: gray;
   -webkit-filter: grayscale(0%);
   filter: none;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
 .cloud2 {
