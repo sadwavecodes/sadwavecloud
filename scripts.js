@@ -5,7 +5,7 @@ function isMobile() {
   
   if (isMobile()) {
     console.log("Mobile device detected");
-    window.location.replace("https://mobile.sadwave.cloud");
+    alert("For better functionality please go to https://mobile.sadwave.cloud/");
   }else {
     console.log("Desktop device detected");
     window.location.replace("https://sadwave.cloud");
