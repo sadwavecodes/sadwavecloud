@@ -66,6 +66,10 @@ button {
   outline: auto;
 }
 
+.mrbeast:hover {
+  color: white;
+}
+
 .randonsfx {
 color: white;
 margin-left: 1171px;

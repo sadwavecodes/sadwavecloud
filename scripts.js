@@ -5,8 +5,10 @@ function isMobile() {
   
   if (isMobile()) {
     console.log("Mobile device detected");
-    window.location="https://mobile.sadwave.cloud";
-  } else {
+    //window.location.replace("https://mobile.sadwave.cloud");
+  }else {
     console.log("Desktop device detected");
-    window.location="https://sadwave.cloud";
+    //window.location.replace("https://sadwave.cloud");
   }   
+
+  
